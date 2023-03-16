@@ -1,0 +1,59 @@
+git branch 
+git branch -a  --- para ver las ramas locales y las remotas 
+
+git branch - solo ramas locales 
+
+git checkout -b myrama -- para crear una rama y cambiarse a la misma 
+
+git log 
+
+git log --oneline -5
+
+git log --oneline --pretty=format: "%h %an" -5
+
+
+rebase -- para reorganizar y se vea mas ordenado 
+
+git log --oneline --pretty=format:"%h %an %s" --graph -5
+
+
+git diff --staged -- ver las diferencias entre el area de preparacion y el comitteada
+
+
+git restore --staged path to file to restore 
+
+git reverse -- borra los archivos  
+ 
+git reset --
+
+
+para fusionar ramas 
+git merge y el rebase 
+
+
+git pull - union entre git merge y git fetch 
+git fetch - actualiza el local respecto al remoto sin afectar 
+git merge para fusionar ramas, ya sean entre dos ramas locales o bien respecto a alguna rama remota 
+
+
+si estoy en otra rama entonces 
+git merge mirama2 -m "mensaje" 
+
+merge fusiona la local vs la rama que se expecifica, sea remota o local, afectando solo la rama origen 
+
+gitignore para evitar que se tomen en consideracon ciertos archivos para evitar conflictos 
+por ejemplo algun archivo que siempre se modifica al crear codigo en algun ide 
+al realizar el git add puede generar conflictos ya que el ide lo modifica por defecto 
+
+
+un pull internamente realiza un merge 
+
+git merge rama 
+
+para ver que ramas estan integradas en master: 
+git branch --merged 
+git branch --no-merged
+
+git commit -am ""  para agregar y commitiar en un solo comando 
+
+git log --oneline --pretty=format:"%h %an %s"

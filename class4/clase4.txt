@@ -1,0 +1,69 @@
+git show 82c6230
+git log --oneline --graph --decorate
+git log 
+
+para borrar ramas locales y ramas remotas 
+git branch -D 
+-d pide confirmacion 
+-D vale madre y no pide confirmacion 
+
+git fetch -p
+git config --list 
+git config --global user.name "santos95" 
+git config --global user.email "santos95ortizmail.com"
+
+git reset 
+
+para borrar las ramas locales 
+git branch -d Daniela 
+--indica si tiene cambios y pregunta si los cambios no se han integrado a master 
+
+git branch -D Daniela
+daniala se refiere a la rama - borra indiependientemente del estado en que se encuentre 
+
+git push --delete origin Daniela
+para borrar la rama remota 
+
+
+git stash 
+
+el stash - como guardado rapido, se puede seleccionar que se quiere guardar 
+se puede guaradar lo que esta modificado o bien lo que esta en el area de preparacion 
+o ambos y así 
+
+
+para mandar al stash lo que esta modificado 
+git stash -- para mostrar las opciones
+git stash --keep-index  -m "guarda solo lo que esta en el area de preparacion"  -  para solo lo ue esta en el área de preparacion
+git stash pop  -- aplica el stash pero elimina la referencia del stasy 
+git stash apply
+
+git stash list 
+git stash -- se lleva todo 
+git stash list -- para ver los stash que tenemos 
+git stash apply stash{0}  --los archivos que estaban en un etado en preparacion y otro modificado, con esto vuelve, 
+			    cuando se vuelve aplicar incluso si se mando el stash estando en preparacion cuando se aplica vuelve como modificado 
+git stash --no-keep-index 
+
+
+-- se puede crear una rama a partir del stash 
+git stash branch miRamaStash stash[0]
+
+
+git add . 
+ 
+
+conflictos
+los conflictos aparecen cuando dos cambios tocan las mismas lineas 
+se resuelven de manera manual 
+
+el conflicto two ways 
+-manual 
+-forzar el merge
+
+resolver el conflicto 
+git merge --abort 
+
+
+
+

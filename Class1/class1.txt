@@ -1,0 +1,14 @@
+Controlador de versiones 
+- Herramientas para gertionar cambios a lo largo del tiempo
+-
+Ventajas
+-flujo de trabajo 
+-trabajo con versiones
+-codigo juntos 
+
+git
+-controlador de versiones 
+
+ls -al 
+para listar y poder ver incluso los archivos ocultos, usuarios y permisos 
+para identificar archivos dentro del directorio

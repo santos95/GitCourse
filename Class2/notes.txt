@@ -1,0 +1,24 @@
+Tres estados de archivos 
+- modificado
+- staged 
+- confirmado - commited 
+
+control de versiones - gestion de estado de codigo en el tiempo 
+
+crear una rama: 
+git branch santosortiz
+
+to change to the branch 
+git checkout santosortiz
+
+--debido a que utilicemos un fork 
+git remote -v
+git clone repositorie
+git status 
+git add .
+git commit -m ""
+git push -u origin branch 
+git pull
+git fetch 
+git remote add jreyes https://github.com/santos95/josuereyes98.git
+git pull jreyes master
