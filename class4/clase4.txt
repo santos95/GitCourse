@@ -27,6 +27,13 @@ para borrar la rama remota
 
 git stash 
 
+
+git reverse -- regresarnos en el tiempo cuando ya publicamos un cambio
+si tenemes en el local sin subir, un reset para no ensuciar el historial 
+
+reset . para retroceder cambios en el local 
+reverse - agregar un commit para deshacer un commit - ya hicimos el push del commit 
+
 el stash - como guardado rapido, se puede seleccionar que se quiere guardar 
 se puede guaradar lo que esta modificado o bien lo que esta en el area de preparacion 
 o ambos y así 
